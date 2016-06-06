@@ -1,4 +1,12 @@
 <html>
+	<?php
+
+
+include("includes/conn.php");
+session_start();
+
+?>
+
 	<head>
 		<title>HEC Based Need Scholorship Program</title>
 	</head>
