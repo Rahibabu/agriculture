@@ -57,7 +57,7 @@ $record=mysql_query($qry);
 if ($record) 
 {
 	echo "Inserted";
-	header("location:./hecfamily.php");
+	header("location:./hecfath.php");
 }
 else
 {

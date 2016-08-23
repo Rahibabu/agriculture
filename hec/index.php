@@ -8,6 +8,15 @@ session_start();
 ?>
 <html>
 	<head>
+
+	<style type="text/css">
+		body{
+			
+	background-image:url("logo.png"); 
+	background:  url("logo.png") no-repeat fixed center;
+	 background-size: 550px 300px;
+}
+	</style>
 		<title>HEC Based Need Scholorship Program</title>
 	</head>
 	<body>

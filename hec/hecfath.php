@@ -1,17 +1,21 @@
-
-<?php
+<<?php 
 
 
 include("includes/conn.php");
 session_start();
+ ?>
+ <html>
+ <head>
 
-?>
-
-
-
-<html>
-	<head>
-		<title>HEC Based Need Scholorship Program</title>
+	<style type="text/css">
+		body{
+			
+	background-image:url("logo.png"); 
+	background:  url("logo.png") no-repeat fixed center;
+	 background-size: 550px 300px;
+}
+	</style>
+ 	<title> Based Need Scholorship Program</title>
 	</head>
 	<body>
 	<div style="width:100%; height:100px; " >
@@ -110,51 +114,56 @@ session_start();
  			     			<tr>
  			     				<td>1</td>
  			     				<td>Property Rent</td>
- 			     				<td><input type="text" name="incomesource1" style=" height: 40px; border:2px solid;"></td>
+ 			     				
  			     				<td><input type="text" name="father1" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="mother1" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="spouse1" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="self1" style=" height: 40px; border:2px solid;"></td>
+ 			     				<td><input type="text" name="other1" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="'text" name="total1" style=" height: 40px; border:2px solid;"></td>
  			     			</tr>
  			     			<tr>
  			     				<td>2</td>
  			     				<td>Land Lease</td>
- 			     				<td><input type="text" name="incomesource2" style=" height: 40px; border:2px solid;"></td>
+ 			     				
  			     				<td><input type="text" name="father2" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="mother2" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="spouse2" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="self2" style=" height: 40px; border:2px solid;"></td>
+ 			     				<td><input type="text" name="other2" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="'text" name="total2" style=" height: 40px; border:2px solid;"></td>
  			     			</tr>
  			     			<tr>
  			     				<td>3</td>
  			     				<td>Bank Deposits3</td>
- 			     				<td><input type="text" name="incomesource3" style=" height: 40px; border:2px solid;"></td>
+ 			     				
  			     				<td><input type="text" name="father3" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="mother3" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="spouse3" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="self3" style=" height: 40px; border:2px solid;"></td>
+ 			     				<td><input type="text" name="other3" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="'text" name="total3" style=" height: 40px; border:2px solid;"></td>
  			     			</tr>
  			     			<tr>
  			     				<td>4</td>
  			     				<td>Shares / Securities*</td>
- 			     				<td><input type="text" name="incomesource4" style=" height: 40px; border:2px solid;"></td>
+ 			     				
  			     				<td><input type="text" name="father4" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="mother4" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="spouse4" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="self4" style=" height: 40px; border:2px solid;"></td>
+ 			     				<td><input type="text" name="other4" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="'text" name="total4" style=" height: 40px; border:2px solid;"></td>
  			     			</tr>
  			     			<tr>
  			     				<td>5</td>
  			     				<td>Other (Specify5</td>
- 			     				<td><input type="text" name="incomesource5" style=" height: 40px; border:2px solid;"></td>
+ 			     				
  			     				<td><input type="text" name="father5" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="mother5" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="spouse5" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="text" name="self5" style=" height: 40px; border:2px solid;"></td>
+ 			     				<td><input type="text" name="other5" style=" height: 40px; border:2px solid;"></td>
  			     				<td><input type="'text" name="total5" style=" height: 40px; border:2px solid;"></td>
  			     			</tr>
  			     			<tr>

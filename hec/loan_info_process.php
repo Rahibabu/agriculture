@@ -80,7 +80,7 @@ $qry="INSERT INTO loanfor SET
 if ($record) 
 {
 	echo "Inserted";
-	header("location:./hecfath.php");
+	header("location:./office.html");
 }
 else
 {

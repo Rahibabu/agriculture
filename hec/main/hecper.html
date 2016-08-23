@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>HEC Based Need Scholorship Program</title>
+
 	</head>
 	<body>
 	<div style="width:100%; height:100px; " >
@@ -49,7 +50,7 @@
            
            <tr>
            <td>1. Applicant NIC No:</td>	
-           <td colspan="4"><input type="text" name="nic"   style="width: 500px; height: 40px; text-indent:20px;  border: 2px solid;"></td>
+           <td colspan="4"><input type="text" name="nic" id="cnic" maxlength="15"   style="width: 500px; height: 40px; text-indent:20px;  border: 2px solid;"></td>
            </tr>
             <tr>
            <td>2. Marital Status </td>
@@ -113,4 +114,25 @@
 		   </table>
 		   </form>
 		   </div>
+		   <script type="text/javascript" src="jquery.js"></script>
+		   <script>
+ 
+			$('#cnic').keydown(function(){
+
+			  //allow  backspace, tab, ctrl+A, escape, carriage return
+			  if (event.keyCode == 8 || event.keyCode == 9 
+			                    || event.keyCode == 27 || event.keyCode == 13 
+			                    || (event.keyCode == 65 && event.ctrlKey === true) )
+			                        return;
+			  if((event.keyCode < 48 || event.keyCode > 57))
+			   event.preventDefault();
+
+			  var length = $(this).val().length; 
+			              
+			  if(length == 5 || length == 13)
+			   $(this).val($(this).val()+'-');
+
+			 });
+			</script>
+		   </body>
 		   </html>
