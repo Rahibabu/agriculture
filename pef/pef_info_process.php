@@ -40,8 +40,9 @@ $explain=$_POST['explain'];
 $nam=$_POST['nam'];
 $num=$_POST['num'];
 $sign2=$_POST['sign2'];
-
 $dat=$_POST['dat'];
+
+
 $nam=$_POST['nam'];
 $num=$_POST['num'];
 $sign2=$_POST['sign2'];
